@@ -25,6 +25,7 @@ android.minapi = 30
 android.archs = arm64-v8a
 
 android.private_storage = True
+android.accept_sdk_license = True
 android.debug_artifact = apk
 
 [buildozer]
