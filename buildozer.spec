@@ -28,6 +28,12 @@ android.private_storage = True
 android.accept_sdk_license = True
 android.debug_artifact = apk
 
+
+# Use python-for-android with the July 30, 2026 fix for
+# temporary pip/venv corruption during dependency installation.
+p4a.branch = develop
+p4a.commit = 0382d27
+
 [buildozer]
 
 log_level = 2
